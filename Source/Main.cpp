@@ -61,8 +61,8 @@ public:
     class MainWindow    : public DocumentWindow
     {
     public:
-        MainWindow()  : DocumentWindow ("MainWindow",
-                                        Colours::lightgrey,
+        MainWindow()  : DocumentWindow ("Roomote",
+                                        Colours::black,
                                         DocumentWindow::allButtons)
         {
             setContentOwned (new MainContentComponent(), true);

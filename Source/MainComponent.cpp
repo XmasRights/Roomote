@@ -21,7 +21,7 @@ MainContentComponent::~MainContentComponent()
 
 void MainContentComponent::paint (Graphics& g)
 {
-    g.fillAll (Colour (0xffeeddff));
+    g.fillAll (Colours::black);
 
     g.setFont (Font (16.0f));
     g.setColour (Colours::black);
