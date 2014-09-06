@@ -35,6 +35,29 @@
         <MODULEPATH id="juce_audio_processors" path="Submodules/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
+    <LINUX_MAKE targetFolder="Builds/Linux">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="Roomote"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="2"
+                       targetName="Roomote"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="Submodules/modules"/>
+        <MODULEPATH id="juce_opengl" path="Submodules/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="Submodules/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="Submodules/modules"/>
+        <MODULEPATH id="juce_graphics" path="Submodules/modules"/>
+        <MODULEPATH id="juce_events" path="Submodules/modules"/>
+        <MODULEPATH id="juce_data_structures" path="Submodules/modules"/>
+        <MODULEPATH id="juce_cryptography" path="Submodules/modules"/>
+        <MODULEPATH id="juce_core" path="Submodules/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="Submodules/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="Submodules/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="Submodules/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="Submodules/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
   </EXPORTFORMATS>
   <MODULES>
     <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
