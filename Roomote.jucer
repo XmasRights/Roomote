@@ -38,9 +38,9 @@
     <LINUX_MAKE targetFolder="Builds/Linux" extraDefs="JUCE_USE_XSHM=0&#10;JUCE_USE_XINERAMA=0">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
-                       targetName="Roomote"/>
+                       targetName="Roomote" linuxArchitecture="-march=armv6"/>
         <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="2"
-                       targetName="Roomote"/>
+                       targetName="Roomote" linuxArchitecture="-march=armv6"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_video" path="Submodules/modules"/>
