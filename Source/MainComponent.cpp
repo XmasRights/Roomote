@@ -8,11 +8,14 @@
 
 #include "MainComponent.h"
 
-
 //==============================================================================
 MainContentComponent::MainContentComponent()
 {
-    setSize (500, 400);
+    data = new RoomoteData(String(BinaryData::appConfig_json, BinaryData::appConfig_jsonSize),
+                           String(BinaryData::themes_json, BinaryData::themes_jsonSize));
+    
+    dock = new DockComponent(data);
+    addAndMakeVisible(dock);
 }
 
 MainContentComponent::~MainContentComponent()
@@ -21,16 +24,15 @@ MainContentComponent::~MainContentComponent()
 
 void MainContentComponent::paint (Graphics& g)
 {
-    g.fillAll (Colours::black);
-
-    g.setFont (Font (16.0f));
-    g.setColour (Colours::black);
-    g.drawText ("Hello World!", getLocalBounds(), Justification::centred, true);
+    g.fillAll (Colour::fromRGB(233, 233, 233));
 }
 
 void MainContentComponent::resized()
 {
-    // This is called when the MainContentComponent is resized.
-    // If you add any child components, this is where you should
-    // update their positions.
+    int xDock = 0;
+    int yDock = 0;
+    int wDock = getWidth();
+    int hDock = 77;
+    
+    dock->setBounds(xDock, yDock, wDock, hDock);
 }

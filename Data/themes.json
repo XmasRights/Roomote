@@ -1,0 +1,88 @@
+{
+  "White": {
+    "colour-background": [
+      233,
+      233,
+      233,
+      255
+    ],
+    "colour-off-text": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "colour-off-baseline": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "colour-off-background": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "colour-animation-text": [
+      0,
+      136,
+      206,
+      255
+    ],
+    "colour-animation-baseline": [
+      0,
+      136,
+      206,
+      255
+    ],
+    "colour-animation-background": [
+      [
+        78,
+        170,
+        53,
+        255
+      ],
+      255,
+      255,
+      255,
+      255
+    ],
+    "colour-colour-baseline": [
+      78,
+      170,
+      53,
+      255
+    ],
+    "colour-colour-text": [
+      78,
+      170,
+      53,
+      255
+    ],
+    "colour-colour-background": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "colour-white-text": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "colour-white-baseline": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "colour-white-background": [
+      255,
+      255,
+      255,
+      255
+    ]
+  }
+}

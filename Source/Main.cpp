@@ -63,11 +63,12 @@ public:
     public:
         MainWindow()  : DocumentWindow ("Roomote",
                                         Colours::black,
-                                        DocumentWindow::allButtons)
+                                        0)
         {
-            setContentOwned (new MainContentComponent(), true);
+            setContentOwned (new MainContentComponent(), false);
 
-            centreWithSize (getWidth(), getHeight());
+            setTitleBarHeight(0);
+            centreWithSize (322, 242); // Not sure why 2 more pixels need to be added
             setVisible (true);
         }
 

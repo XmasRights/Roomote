@@ -1,0 +1,16 @@
+{
+  "DockButtons": [
+    {
+      "title": "White"
+    },
+    {
+      "title": "Colour"
+    },
+    {
+      "title": "Animation"
+    },
+    {
+      "title": "Off"
+    }
+  ]
+}

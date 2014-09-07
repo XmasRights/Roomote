@@ -5,6 +5,18 @@
               jucerVersion="3.1.0">
   <MAINGROUP id="MaHmQv" name="Roomote">
     <GROUP id="{BCAD21E4-5277-487D-1A89-205CE43FEB68}" name="Source">
+      <GROUP id="{0971B6F1-1736-F0B9-8460-F0AD10DD4C9B}" name="Data">
+        <FILE id="HFG9jZ" name="RoomoteData.cpp" compile="1" resource="0" file="Source/RoomoteData.cpp"/>
+        <FILE id="PtavB2" name="RoomoteData.h" compile="0" resource="0" file="Source/RoomoteData.h"/>
+        <FILE id="D5GYqH" name="appConfig.json" compile="0" resource="1" file="Data/appConfig.json"/>
+        <FILE id="Pp1JcC" name="themes.json" compile="0" resource="1" file="Data/themes.json"/>
+      </GROUP>
+      <FILE id="FlMFlJ" name="DockComponent.cpp" compile="1" resource="0"
+            file="Source/DockComponent.cpp"/>
+      <FILE id="SHflLD" name="DockComponent.h" compile="0" resource="0" file="Source/DockComponent.h"/>
+      <FILE id="uArTyu" name="SquareButton.cpp" compile="1" resource="0"
+            file="Source/SquareButton.cpp"/>
+      <FILE id="jOtRCW" name="SquareButton.h" compile="0" resource="0" file="Source/SquareButton.h"/>
       <FILE id="k5Wh96" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
       <FILE id="xrRRlo" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>

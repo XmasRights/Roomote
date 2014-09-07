@@ -10,7 +10,8 @@
 #define MAINCOMPONENT_H_INCLUDED
 
 #include "../JuceLibraryCode/JuceHeader.h"
-
+#include "DockComponent.h"
+#include "RoomoteData.h"
 
 //==============================================================================
 /*
@@ -29,6 +30,10 @@ public:
 
 private:
     //==============================================================================
+    
+    ScopedPointer<RoomoteData> data;
+    ScopedPointer<DockComponent> dock;
+    
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainContentComponent)
 };
 
